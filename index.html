@@ -37,7 +37,11 @@
 
     <section class="hero">
         <div class="hero-text">
-            <h5 data-aos="fade-right" data-aos-duration="1400">#Coffee for hot days</h5>
+            <div class="wrapper" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="600">
+                <span class="static-txt">#Coffee</span>
+                <span class="input">for hot days</span>
+            </div>
+            <!-- <h5 data-aos="fade-right" data-aos-duration="1400">#Coffee for hot days</h5> -->
             <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200"> Cold Brew</h1>
             <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Boots your productivity and build your mood with a glass of coffee in the morning. Coffee has a stimulating effect.</p>
 
@@ -67,12 +71,13 @@
         </a>
     </div>
 
-    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({
-        offset:1,
-      });
-    </script>
+        AOS.init({
+            offset:1,
+        });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
